@@ -466,8 +466,11 @@ body .footer .contact span {
     justify-content: space-around;
     padding-right: 5px;
   }
+  body .header .nav div {
+    width: 20vw;
+  }
   body .header .nav div a {
-    font-size: 14px;
+    font-size: 12px;
   }
   body .accessBlog {
     height: 650px;
@@ -539,7 +542,7 @@ body .footer .contact span {
   }
   body .avantage .avantageBox {
     flex: 0;
-    width: 70%;
+    width: 80%;
     height: 100%;
     flex-direction: row;
     justify-content: space-around;
@@ -577,6 +580,9 @@ body .footer .contact span {
   body .successOfMonth .citationSuccess {
     font-size: 16px;
     margin: 10px 5px 30px 5px;
+  }
+  body .successOfMonth :nth-child(3) {
+    flex-direction: column;
   }
   body .footer {
     padding-left: 20px;
